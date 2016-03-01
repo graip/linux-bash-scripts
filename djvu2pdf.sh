@@ -31,7 +31,6 @@ fi
 # Convert file
 
 file=$(basename "$1")
-#extension="${file##*.}"
 filename="${file%.*}"
 
 djvups "$1" temp.ps
